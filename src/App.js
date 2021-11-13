@@ -15,12 +15,11 @@ const items = [
     content: "You use React by creating components",
   },
 ];
-console.log(items);
 
 const App = () => {
   return (
     <div>
-      <Accordion />
+      <Accordion items={items} />
     </div>
   );
 };
